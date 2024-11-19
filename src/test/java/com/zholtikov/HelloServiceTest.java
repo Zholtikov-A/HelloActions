@@ -28,4 +28,15 @@ class HelloServiceTest {
 
     }
 
+    @Test
+    public void testHelloFailed2() {
+        String a = "Hello ";
+        String b = "error2";
+
+        String result = a + b;
+
+        assertNotEquals(result, "Hello world");
+
+    }
+
 }
