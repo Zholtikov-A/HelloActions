@@ -2,12 +2,10 @@ package com.zholtikov;
 
 public class Main {
     public static void main(String[] args) {
-        String a = "Hello ";
-        String b = "world";
 
-        String result = a+b;
+        HelloService helloService = new HelloService();
 
-        System.out.println("Hello world!");
-        System.out.println(result);
+        helloService.makeHello();
+
     }
 }
