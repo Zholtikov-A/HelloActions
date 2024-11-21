@@ -39,4 +39,16 @@ class HelloServiceTest {
 
     }
 
+
+    @Test
+    public void testFail() {
+        String a = "Hello ";
+        String b = "error";
+
+        String result = a + b;
+
+        assertEquals(result, "Hello world");
+
+    }
+
 }
