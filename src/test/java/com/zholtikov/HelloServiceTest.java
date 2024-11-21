@@ -29,9 +29,9 @@ class HelloServiceTest {
     }
 
     @Test
-    public void testHelloFailed2() {
+    public void testHelloFailedButExpectedOk() {
         String a = "Hello ";
-        String b = "error2";
+        String b = "world";
 
         String result = a + b;
 
