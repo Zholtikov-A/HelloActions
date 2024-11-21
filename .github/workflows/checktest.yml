@@ -10,7 +10,7 @@ name: Check test on merge
 
 on:
   push:
-    branches: [ "main", "testfail", "failtest" ]
+    branches: [ "main", "fail_by_test_1" ]
   pull_request:
     branches: [ "main" ]
 
