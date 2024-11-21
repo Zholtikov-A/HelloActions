@@ -31,7 +31,7 @@ class HelloServiceTest {
     @Test
     public void testHelloFailedButExpectedOk() {
         String a = "Hello ";
-        String b = "world";
+        String b = "world2";
 
         String result = a + b;
 
